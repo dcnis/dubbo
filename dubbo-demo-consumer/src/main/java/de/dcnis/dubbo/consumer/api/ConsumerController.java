@@ -1,6 +1,6 @@
 package de.dcnis.dubbo.consumer.api;
 
-import de.dcnis.dubbo.DemoService;
+import de.dcnis.dubbo.api.DemoService;
 import org.apache.dubbo.config.annotation.DubboReference;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
