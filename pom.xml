@@ -8,12 +8,6 @@
         <module>dubbo-demo-consumer</module>
         <module>dubbo-demo-provider</module>
     </modules>
-    <parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.6.4</version>
-		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
 	<groupId>de.dcnis</groupId>
 	<artifactId>dubbo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -22,22 +16,6 @@
 	<properties>
 		<java.version>11</java.version>
 	</properties>
-	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-
-
-
-
-	</dependencies>
 
 	<build>
 		<plugins>

@@ -1,5 +1,5 @@
 package de.dcnis.dubbo;
 
-public interface DubboService {
+public interface DemoService {
     String  sayHello(String name);
 }
